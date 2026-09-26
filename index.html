@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game Portal</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Game Portal</h1>
+        <p>Open-source games playable in your browser</p>
+    </header>
+
+    <main>
+
+        <section class="games">
+
+            <button class="game-button" onclick="openGame('quake')">
+                <span class="game-title">Quake</span>
+                <span class="game-type">FPS</span>
+            </button>
+
+            <button class="game-button" onclick="openGame('doom')">
+                <span class="game-title">DOOM</span>
+                <span class="game-type">FPS</span>
+            </button>
+
+            <button class="game-button" onclick="openGame('gzdoom')">
+                <span class="game-title">GZDoom / FreeDM</span>
+                <span class="game-type">FPS</span>
+            </button>
+
+            <button class="game-button" onclick="openGame('openttd')">
+                <span class="game-title">OpenTTD</span>
+                <span class="game-type">Strategy</span>
+            </button>
+
+            <button class="game-button" onclick="openGame('openxcom')">
+                <span class="game-title">OpenXcom</span>
+                <span class="game-type">Strategy</span>
+            </button>
+
+            <button class="game-button" onclick="openGame('uqm')">
+                <span class="game-title">The Ur-Quan Masters</span>
+                <span class="game-type">Adventure</span>
+            </button>
+
+            <button class="game-button" onclick="openGame('supertux')">
+                <span class="game-title">SuperTux</span>
+                <span class="game-type">Platformer</span>
+            </button>
+
+            <button class="game-button" onclick="openGame('luanti')">
+                <span class="game-title">Luanti</span>
+                <span class="game-type">Sandbox</span>
+            </button>
+
+            <button class="game-button" onclick="openGame('freeciv')">
+                <span class="game-title">Freeciv21</span>
+                <span class="game-type">Strategy</span>
+            </button>
+
+            <button class="game-button" onclick="openGame('wolfenstein')">
+                <span class="game-title">Return to Castle Wolfenstein</span>
+                <span class="game-type">FPS</span>
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Open-source browser game collection</p>
+    </footer>
+
+    <script src="js/games.js"></script>
+
+</body>
+</html>
